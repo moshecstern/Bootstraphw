@@ -4,41 +4,51 @@
 <head>
   <meta charset="utf-8">
   <title>Moshes Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
-<body>
-  <header id="headerP">
-    <span id= "myName">
-        <p>Moshe Stern</p>
+</head>
+
+<body class="bg-secondary">
+  <header class="navbar navbar-light bg-white w-100 py-0">
+    <span class="navbar-text bg-info pl-2 pr-2 text-white ml-5">
+      <p>Moshe Stern</p>
     </span>
-    <div id="linksH">
-    <a href="index.html"><i class="fas fa-home"></i>About</a>
-    <a href="Portfolio.html"><i class="far fa-images"></i>Portfolio</a>
-    <a href="Contact.html"><i class="fas fa-envelope-square"></i>Contact</a>
+    <div>
+      <a class="text-secondary" href="index.html"><i class="fas fa-home"></i>About</a>
+      <a class="text-secondary" href="Portfolio.html"><i class="far fa-images"></i>Portfolio</a>
+      <a class="text-secondary mr-5" href="Contact.html"><i class="fas fa-envelope-square"></i>Contact</a>
     </div>
-</header>
-  <form id="mainF">
-    <h2>Contact</h2>
-    <label>
-      <span>Name:</span>
-      <input id="nameF" type="text" name="name" placeholder="John Smith" />
-    </label>
-    <label>
-      <span>Your Email :</span>
-      <input id="emailF" type="email" name="email" placeholder="example@gmail.com" />
-    </label>
-    <label>
-      <span>Message :<span>
-          <textarea></textarea>
-    </label>
-    <input id="submitF" type="button" value="Submit" />
-  </form>
-  <footer id="footerP">
-    copyright @moshecstern
+  </header>
+
+
+    <div class="container p-5">
+        <form>
+          <div class= "row">
+            <div class="col-12 bg-white border-bottom text-info"><h2>Contact</h2><br></div>
+            <div class= "col-12 bg-white"><br>
+        <div class= "form group">
+          <label for="input1">Name</label>
+          <input type="text" class="form-control" id="Input1" placeholder="John Doe">
+        </div>
+        <div class="form-group">
+          <label for="Input2">Email </label>
+          <input type="email" class="form-control" id="Input2" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="button" class="btn btn-info mb-3">Info</button>
+
+      
+            </div>
+          </div>
+      </form>
+  </div>
+
+  <footer class="fixed-bottom text-center bg-dark text-white">
+      copyright @moshecstern
   </footer>
 </body>
-
-
-
 </html>

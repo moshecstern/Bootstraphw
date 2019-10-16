@@ -4,83 +4,72 @@
 <head>
   <meta charset="utf-8">
   <title>Moshes Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
-<body>
-  <header id="headerP">
-    <span id="myName">
+<body class="bg-secondary">
+  <header class="navbar navbar-light bg-white w-100 border-bottom py-0">
+    <span class="navbar-text bg-info pl-2 pr-2 ml-5 text-white nav">
       <p>Moshe Stern</p>
     </span>
-    <div id="linksH">
-    <a href="index.html"><i class="fas fa-home"></i>About</a>
-    <a href="Portfolio.html"><i class="far fa-images"></i>Portfolio</a>
-    <a href="Contact.html"><i class="fas fa-envelope-square"></i>Contact</a>
+    <div>
+      <a class="text-secondary" href="index.html"><i class="fas fa-home"></i>About</a>
+      <a class="text-secondary" href="Portfolio.html"><i class="far fa-images"></i>Portfolio</a>
+      <a class="text-secondary mr-5" href="Contact.html"><i class="fas fa-envelope-square"></i>Contact</a>
     </div>
   </header>
-  <div class="white-bg">
-    <!-- <div id="tableName"> -->
-      <h2>Portfolio</h2>
-    <!-- </div> -->
-    <hr />
-    <table id="tableG">
-      <br>
-      <tbody>
-        <tr>
-          <td>
-            <div class="gallery">
-              <a href="/pet_project/game.html"><img class="picG" src="Assets/Images/spaceinvaders.jpg"
-                  title="Love Project"></a>
-              <div class="projectName">
-                <p>project 1</p>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="gallery">
-              <a href="/pet_project/mainpage.html"><img class="picG" src="Assets/Images/Love.jpg"
-                  title="Love Project" /></a>
-              <div class="projectName">
-                <p>project 2</p>
-              </div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="gallery">
-              <a href="/pet_project/mainpage.html"><img class="picG" src="Assets/Images/Love.jpg"
-                  title="Love Project" /></a>
-              <div class="projectName">
-                <p>project 3</p>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="gallery">
-              <a href="/pet_project/mainpage.html"><img class="picG" src="Assets/Images/Love.jpg"
-                  title="Love Project" /></a>
-              <div class="projectName">
-                <p>project 4</p>
-              </div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="gallery">
-              <a href="/pet_project/mainpage.html"><img class="picG" src="Assets/Images/Love.jpg"
-                  title="Love Project" /></a>
-              <div class="projectName">
-                <p>project 5</p>
-              </div>
-            </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+
+  <div class="container bg-white w-75 mt-3">
+    <div class="row">
+      <div class="col-12 text-info m-3">
+        <h2>Portfolio</h2>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-l-3 col-m-6 col-s-12 offset-3 card border-0 my-2 mr-2 text-white"
+        style="width: 200px; height:200px;">
+        <img class="card-img" src="Assets/Images/spaceinvaders.jpg" alt="spaceinvaders">
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <p class="card-footer bg-info text-white">Project 1</p>
+        </div>
+      </div>
+      <div class="col-l-3 col-m-6 col-s-12 card border-0 my-2 text-white" style="width: 200px; height:200px;">
+        <img class="card-img" src="Assets/Images/spaceinvaders.jpg" alt="spaceinvaders">
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <p class="card-footer bg-info text-white">Project 2</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-l-3 col-m-6 col-s-12 offset-3 card border-0 my-2 mr-2 text-white"
+        style="width: 200px; height:200px;">
+        <img class="card-img" src="Assets/Images/spaceinvaders.jpg" alt="spaceinvaders">
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <p class="card-footer bg-info text-white">Project 3</p>
+        </div>
+      </div>
+      <div class="col-l-3 col-m-6 col-s-12 card border-0 my-2 text-white" style="width: 200px; height:200px;">
+        <img class="card-img" src="Assets/Images/spaceinvaders.jpg" alt="spaceinvaders">
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <p class="card-footer bg-info text-white">Project 4</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-l-3 col-m-6 col-s-12 offset-3 card border-0  my-2 mr-2 text-white"
+        style="width: 200px; height:200px;">
+        <img class="card-img" src="Assets/Images/spaceinvaders.jpg" alt="spaceinvaders">
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <p class="card-footer bg-info text-white">Project 5</p>
+        </div>
+      </div>
+    </div>
+    <!-- </div></div> -->
   </div>
-  <footer id="footerP">
+  </div>
+  <div class="row mb-5"></div>
+  <footer class="fixed-bottom text-center bg-dark text-white">
     copyright @moshecstern
   </footer>
 </body>

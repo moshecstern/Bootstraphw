@@ -1,55 +1,56 @@
+<!-- bootstrap challange -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
     <meta charset="utf-8">
     <title>Moshes Portfolio</title>
-    <!-- We link our html to the Bootstrap CDN
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  -->
-    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+    
+    <!-- We link our html to the Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   
+    <!-- <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+    -->
 </head>
 
-<body>
-    <header id="headerP">
-        <span id="myName">
+<body class="bg-secondary">
+    <header class="navbar navbar-light bg-white w-100 py-0">
+        <span class="navbar-text bg-info pl-2 pr-2 text-white ml-5">
             <p>Moshe Stern</p>
         </span>
-        <div id="linksH">
-            <a href="index.html"><i class="fas fa-home"></i>About</a>
-            <a href="Portfolio.html"><i class="far fa-images"></i>Portfolio</a>
-            <a href="Contact.html"><i class="fas fa-envelope-square"></i>Contact</a>
+        <div>
+            <a class="text-secondary" href="index.html"><i class="fas fa-home"></i>About</a>
+            <a class="text-secondary" href="Portfolio.html"><i class="far fa-images"></i>Portfolio</a>
+            <a class="text-secondary mr-5" href="Contact.html"><i class="fas fa-envelope-square"></i>Contact</a>
         </div>
     </header>
-    <!-- 
-    <nav id="navBarP">
-        <a href="#footerP">go to the footer</a>
-        <a href="#contentP">Content</a>
-    </nav>
--->
-    <section id="sectionP">
-        <article id="articleP">
+    <div class= "container w-75 pb-5 bg-white mt-5">
+    <div class="row">
+        <div class="col-12 text-info">
             <h1>About me</h1>
-            <hr>
-            <img id="profilePic" src="Assets/Images/profilepic.jpg">
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-m-4 col-s-12">
+            <img class="float-left" src="Assets/Images/profilepic.jpg" height=200px width=200px>
+        </div>
+        <div class="col-8 ml-2 mx-auto">
             <p> I was born in Jerusalem, Israel in 1994.
                 I moved to Philadelphia in 1996,
                 and from there to Milwaukee, St Louis,
                 Miami, and then back to Israel.
                 I served in the Israeli Defense Force in
-                the foreign relations unit and then worked 
+                the foreign relations unit and then worked
                 as a general manager in a resturant/ bar
-                called Mikes Place. I am learning alot 
-                about coding and am excited to see where 
+                called Mikes Place. I am learning alot
+                about coding and am excited to see where
                 this goes!</p>
-        </article>
-    </section>
-    <!-- 
-    <aside id="asideP">
-        Look at this side article!
-    </aside>
--->
-    <footer id="footerP">
+        </div>
+
+
+    </div>
+</div>
+    <footer class="fixed-bottom text-center bg-dark text-white">
         copyright @moshecstern
     </footer>
 </body>
